@@ -712,10 +712,33 @@ margin: 0.7rem 0.35rem;
 
 /* Responsive Design Code  */
 
+
+@media(max-width:1600px){
+    .home-content{
+        margin-top: 4rem;
+    }
+    .find-form-box{
+        height: 475px;        
+    }
+    .find-form-box h3{
+        margin-top: 20rem;
+    }
+}
+
 @media(max-width: 1200px){
     html{
         font-size: 55%;
     }
+    .find-form-box{
+        height: 426px;        
+    }
+    .find-form-box h3{
+        margin-top: 20rem;
+    }
+    .home-content{
+        margin-top: 4rem;
+    }
+   
 }
 
 @media(max-width:991px){
